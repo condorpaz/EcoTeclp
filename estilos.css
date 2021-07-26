@@ -3,3 +3,13 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(235, 121, 14);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.insta{
+    width: 20%;
+}
