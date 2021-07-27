@@ -1,0 +1,19 @@
+@import"variables";
+
+.sectionNosotros{
+    background-image: $fondoMain;
+    padding: 3%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .sectionNosotros{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        text-align: center;
+        span{
+            font-size: larger;
+            font-weight: bold;
+            align-self: center;
+        }
+    }
+}

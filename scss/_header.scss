@@ -1,0 +1,66 @@
+@import"variables";
+
+.header{ 
+    background-image: linear-gradient(blue, white);
+    display: grid;
+    grid-template-areas: 
+    "logo"
+    "menu";
+}
+
+.header__Img{
+    grid-area: logo;
+    text-align: center;
+}
+
+.header__Nav{
+    grid-area: menu;
+    ul{
+        border: 3px solid darkgrey;
+        padding: 2%;
+        text-align: center;
+        border-style: groove;
+    
+        li{
+         display:inline;
+        
+            padding:0.5%;
+            border:1px solid white;
+            text-align: center;
+            position:relative;
+            background-color:black;
+        }
+                      
+        li>ul{
+            display:none;
+            
+            }
+    
+        li:hover>ul{
+            display:block;
+            position:absolute;
+            text-align: left;
+            top:30px;
+            left:-5px;
+        
+        }
+        li:hover>a{
+           background-color: brown;
+        
+        }
+
+
+        a{
+            color: rgb(212, 211, 211);
+        }
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .header{
+        background-image: linear-gradient(blue, white);
+        display: grid;
+        grid-template-areas: 
+        "logo menu";
+    }
+    
+}

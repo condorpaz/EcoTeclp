@@ -1,0 +1,52 @@
+@import"variables";
+
+.main{
+    background-image: $fondoMain;
+}
+
+.mainArticle{
+    grid-area: texto;
+    align-self: center;
+}
+
+.mainArticle__p{
+    text-shadow: rgb(115, 116, 92) -2px 2px 3px;
+    font-size: 250%;
+    text-align: center;
+}
+
+.mainArticle__p--strong{
+    color: blue;
+    border: 2px dotted black;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.mainAsideImgMovil {
+    width: 100%;
+    
+}
+.mainAsideImg1080{
+    display: none;
+}
+
+@media only screen and (min-width: 960px) {
+    .main{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .mainArticle{
+        grid-area: texto;
+        align-self: center;
+        margin: 0% 5%;
+    }
+    .mainAsideImgMovil {
+        width: 100%;
+        display: none;
+    }
+    .mainAsideImg1080{
+     display: block;   
+    }
+    
+}

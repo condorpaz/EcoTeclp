@@ -1,0 +1,15 @@
+@import"variables";
+
+.sectionContacto{
+    background-image: $fondoMain;
+}
+.formContacto{
+    text-align: center;
+    input:hover{
+        background-color: khaki;
+    }
+    textarea:hover{
+        background-color: khaki;
+    }
+}
+@media only screen and (min-width: 1024px) {}

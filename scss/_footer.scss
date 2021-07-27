@@ -1,0 +1,40 @@
+@import"variables";
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 97vw;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-image: linear-gradient(to right,steelblue, white);
+        h2{
+            text-align: center;
+        }
+}
+
+.footerRedesUl{
+    display: flex;
+    list-style: none;
+    li{
+        margin: 10px 20px 0px 5px;
+    }
+    img{
+        border-radius: 30%;
+    }
+}
+
+
+.footerMenuUl{
+    list-style: none;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        text-transform: uppercase;
+        background-color: rgb(54, 98, 134);
+    } 
+}
+@media only screen and (min-width: 1024px) {}

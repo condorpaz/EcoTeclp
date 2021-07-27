@@ -1,0 +1,3 @@
+Agrege "popovers" a la seccion "servicios". Me llevo muchisimo tiempo entender como agregarlos y no llegue a modicar casi nada. las pocas modificaciones son solo para la version movil.
+
+Espero sea suficiente para aprobar esta entrega
