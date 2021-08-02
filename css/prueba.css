@@ -10,10 +10,11 @@ html {
 
 body {
   margin: 0;
-  margin-bottom: 170px; }
+  margin-bottom: 170px;
+  background: url(../imagenes/FondoMain.jpg) no-repeat center;
+  background-size: cover; }
 
 .header {
-  background-image: url(../imagenes/fondoHead.jpg);
   display: grid;
   grid-template-areas: "logo" "menu"; }
 
@@ -50,13 +51,8 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .header {
-    background: url(../imagenes/fondoHead.jpg) no-repeat center;
-    background-size: cover;
     display: grid;
     grid-template-areas: "logo menu"; } }
-
-.main {
-  background-image: linear-gradient(to bottom, lightsteelblue, white); }
 
 .mainArticle {
   grid-area: texto;
@@ -100,8 +96,7 @@ body {
   height: 170px;
   display: flex;
   justify-content: space-around;
-  text-align: center;
-  background-image: linear-gradient(to right, steelblue, white); }
+  text-align: center; }
   .footer h2 {
     text-align: center; }
 

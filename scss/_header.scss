@@ -1,7 +1,7 @@
 
 
 .header{ 
-    background-image:url(../imagenes/fondoHead.jpg);
+    
     display: grid;
     grid-template-areas: 
     "logo"
@@ -58,8 +58,7 @@
 @media only screen and (min-width: 1024px) {
     .header{
         
-        background: url(../imagenes/fondoHead.jpg) no-repeat center ;
-        background-size: cover; 
+        
         display: grid;
         grid-template-areas: 
         "logo menu";
