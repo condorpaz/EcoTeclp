@@ -120,22 +120,23 @@ body {
 .sectionServicios {
   display: grid;
   grid-template-columns: 1fr;
-  background-image: linear-gradient(to bottom, lightsteelblue, white);
   padding-top: 15px; }
   .sectionServicios button {
     margin: 5%;
     border: 2px solid black; }
 
 .sectionBlog {
-  background-image: linear-gradient(to bottom, lightsteelblue, white);
+  display: grid;
+  grid-template-columns: 6fr 6fr;
   text-align: center;
-  font-size: xx-large;
   padding: 10%; }
   .sectionBlog p {
-    padding: 3%; }
+    padding: 3%;
+    font-size: xx-large; }
   .sectionBlog a {
     text-decoration: none;
-    border-bottom: 1px solid royalblue; }
+    border-bottom: 1px solid royalblue;
+    color: #c78e4c; }
   .sectionBlog p:hover {
     text-transform: uppercase;
     font-weight: bold; }
@@ -161,7 +162,7 @@ body {
   .sectionArticulos h5 {
     text-align: center; }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 999px) {
   .sectionVideos {
     display: grid;
     grid-template-columns: 4fr 4fr 4fr;

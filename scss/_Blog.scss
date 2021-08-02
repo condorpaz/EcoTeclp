@@ -1,17 +1,21 @@
 @import"variables";
 
 .sectionBlog{
-    background-image: $fondoMain;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
     text-align: center;
-    font-size: xx-large;
+    
+    
     padding: 10%;
         p{
             padding: 3%;
+            font-size: xx-large;
             
         }
         a{
             text-decoration: none;
             border-bottom:1px solid royalblue;
+            color: rgb(199, 142, 76);
         }
         p:hover{
             text-transform: uppercase;
@@ -46,7 +50,7 @@
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 999px) {
     .sectionVideos{
         display: grid;
         grid-template-columns: 4fr 4fr 4fr ;
