@@ -13,7 +13,7 @@ body {
   margin-bottom: 170px; }
 
 .header {
-  background-image: linear-gradient(blue, white);
+  background-image: url(../imagenes/fondoHead.jpg);
   display: grid;
   grid-template-areas: "logo" "menu"; }
 
@@ -50,7 +50,8 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .header {
-    background-image: linear-gradient(blue, white);
+    background: url(../imagenes/fondoHead.jpg) no-repeat center;
+    background-size: cover;
     display: grid;
     grid-template-areas: "logo menu"; } }
 
@@ -199,24 +200,6 @@ body {
       font-size: larger;
       font-weight: bold;
       align-self: center; } }
-
-.main404 {
-  background-image: linear-gradient(to bottom, lightsteelblue, white); }
-  .main404 article {
-    padding-top: 25%;
-    text-align: center;
-    font-size: 200%;
-    font-weight: bold; }
-  .main404 img {
-    width: 100%; }
-
-@media only screen and (min-width: 960px) {
-  .main404 {
-    display: flex;
-    justify-content: space-evenly; }
-    .main404 img {
-      width: 100%;
-      padding-top: 25%; } }
 
 .main404 {
   background-image: linear-gradient(to bottom, lightsteelblue, white); }

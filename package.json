@@ -14,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/condorpaz/EcoTeclp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/condorpaz/EcoTeclp/issues"
+  },
+  "homepage": "https://github.com/condorpaz/EcoTeclp#readme",
   "description": ""
 }

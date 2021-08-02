@@ -1,7 +1,7 @@
-@import"variables";
+
 
 .header{ 
-    background-image: linear-gradient(blue, white);
+    background-image:url(../imagenes/fondoHead.jpg);
     display: grid;
     grid-template-areas: 
     "logo"
@@ -57,7 +57,9 @@
 }
 @media only screen and (min-width: 1024px) {
     .header{
-        background-image: linear-gradient(blue, white);
+        
+        background: url(../imagenes/fondoHead.jpg) no-repeat center ;
+        background-size: cover; 
         display: grid;
         grid-template-areas: 
         "logo menu";
