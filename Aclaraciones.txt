@@ -1,3 +1,12 @@
-Agrege "popovers" a la seccion "servicios". Me llevo muchisimo tiempo entender como agregarlos y no llegue a modicar casi nada. las pocas modificaciones son solo para la version movil.
+-Cambie el fondo para todo el sitio poniendo el backgraund en el body ecxepto para "blog/articulos" que probe sacandole el fondo al acordeon pero no me gusta como quedo, prefiero como viene desde boostrap
 
-Espero sea suficiente para aprobar esta entrega
+-Cambie el menu, para pantallas pequeñas todavia no lo estilice
+
+-Cambie el formato de "blog" no es final pero decime si la idea te gusta mas que antes
+
+-cambie por completo el formulario de contacto
+
+
+En la pagina web que me da git cambio todo menos el fondo(quizas sea cuestion de tiempo) nose por que. Te dejo la pagina de 000web por las dudas(todavia no lo cargo pero espero que lo cargue bien). 
+
+Te consulto, tengo que entregar para 3 resoluciones o con mobile y desktop esta bien?
